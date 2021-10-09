@@ -1,2 +1,1 @@
-# algorithm
 算法
