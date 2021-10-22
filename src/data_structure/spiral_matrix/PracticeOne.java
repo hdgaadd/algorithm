@@ -1,4 +1,5 @@
-package SpiralMatrix;
+package data_structure.spiral_matrix;
+//螺旋矩阵
 /**
  *给你一个正整数n ，生成一个包含 1 到 n^2 所有元素，且元素按顺时针顺序螺旋排列的n * n正方形矩阵 matrix 。
  *
@@ -9,7 +10,7 @@ package SpiralMatrix;
  * 输入：n = 1
  * 输出：[[1]]
  */
-public class SpiralMatrix {
+public class PracticeOne {
     //按照从左到右、从上到下、从右到左、从下到上遍历
     //当所有方格被遍历时退出循环
     public int[][] generateMatrix(int n) {
